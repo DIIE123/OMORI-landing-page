@@ -38,6 +38,7 @@ ul {
 a, .play a {
     color: white;
     cursor: url(./images/cursor.cur), auto;
+    white-space: nowrap;
 }
 
 .about-container img {
