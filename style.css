@@ -70,6 +70,10 @@ h1 {
     padding: 8px 16px;
 }
 
+p {
+    margin: 0;
+}
+
 .about-container {
     box-sizing: border-box;
     width: 1000px;
@@ -85,7 +89,7 @@ h1 {
     text-align: center;
 }
 
-p {
+.caption p {
     margin: 10px 0;
 }
 
@@ -148,9 +152,8 @@ p {
     padding: 0 32px;
 }
 
-/* sources (add later)
-omori font: https://www.reddit.com/r/OMORI/comments/q3ppai/here_are_the_omori_fonts_since_so_many_people/
-cursor: https://www.cursor.cc/?action=icon&file_id=174737
-steam logo by pocike: https://www.flaticon.com/free-icon/social_15466225?term=steam&page=1&position=3&origin=search&related_id=15466225
-other logos by Freepik: https://www.flaticon.com/packs/videogame-logo-4
-unless otherwise specified, all images are from the OMORI fandom wiki */
+.footer {
+    padding: 16px 0;
+    text-align: center;
+    background-color: black;
+}
