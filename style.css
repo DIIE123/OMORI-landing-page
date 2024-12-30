@@ -44,7 +44,7 @@ a, .play a {
 h1,
 .play,
 .about-container,
-.about-container img,
+.portrait,
 .characters *:not(div),
 .reviews *:not(div) {
     border: 4px solid white;
@@ -87,6 +87,13 @@ h1 {
 
 p {
     margin: 10px 0;
+}
+
+.logos {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .characters, .reviews {
@@ -144,4 +151,6 @@ p {
 /* sources (add later)
 omori font: https://www.reddit.com/r/OMORI/comments/q3ppai/here_are_the_omori_fonts_since_so_many_people/
 cursor: https://www.cursor.cc/?action=icon&file_id=174737
+steam logo by pocike: https://www.flaticon.com/free-icon/social_15466225?term=steam&page=1&position=3&origin=search&related_id=15466225
+other logos by Freepik: https://www.flaticon.com/packs/videogame-logo-4
 unless otherwise specified, all images are from the OMORI fandom wiki */
