@@ -46,7 +46,8 @@ h1,
 .about-container,
 .portrait,
 .characters *:not(div),
-.reviews *:not(div) {
+.reviews *:not(div),
+.contact-container {
     border: 4px solid white;
     background-color: black;
     outline: 2px solid black;
@@ -104,7 +105,7 @@ p {
     padding: 32px 0 100px;
 }
 
-.characters {
+.characters, .contact {
     background-color: white;
 }
 
@@ -150,6 +151,47 @@ p {
 
 #sproutmole {
     padding: 0 32px;
+}
+
+.h2 {
+    font-size: 32px;
+}
+
+.contact {
+    padding: 32px 0;
+}
+
+.contact-container {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 32px auto;
+    padding: 0 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    margin-bottom: 24px;
+}
+
+@keyframes button-flash {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: lightgreen;
+    }
+}
+
+.contact-button {
+    background-color: red;
+    animation: button-flash 0.5s linear 0s infinite alternate;
+    text-decoration: none;
+    border: 4px solid white;
+    border-radius: 25px;
+    font-size: 32px;
+    padding: 8px 16px;
 }
 
 .footer {
