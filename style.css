@@ -64,6 +64,16 @@ h1,
     padding: 100px 32px;
 }
 
+.about .caption,
+.about-text {
+    flex: 1 1 250px;
+}
+
+.portrait {
+    max-width: 100%;
+    height: auto;   
+}
+
 h1 {
     text-align: center;
     width: fit-content;
@@ -75,12 +85,17 @@ p {
     margin: 0;
 }
 
+.about-text {
+    max-width: 450px;
+}
+
 .about-container {
     box-sizing: border-box;
-    width: 1000px;
+    width: 70%;
     margin: 32px auto;
     padding: 100px 48px;
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -136,7 +151,7 @@ p {
 
 .review-text {
     padding: 8px 16px;
-    width: 700px;
+    width: 50%;
     font-size: 40px;
     margin: 10px 0 0;
 }
@@ -163,10 +178,11 @@ p {
 
 .contact-container {
     box-sizing: border-box;
-    width: 1000px;
+    width: 60%;
     margin: 32px auto;
     padding: 0 64px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -192,6 +208,7 @@ p {
     border-radius: 25px;
     font-size: 32px;
     padding: 8px 16px;
+    margin: 16px 0;
 }
 
 .footer {
